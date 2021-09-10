@@ -15,7 +15,7 @@
  [Back-End] : [최솔비](https://github.com/SolbiChoi), [복정훈](https://github.com/yoonputer)
 
 ### ◾ 프로젝트 수행 방향
-<img alt="KakaoTalk_20210910_203502285" src="https://user-images.githubusercontent.com/86331136/132856538-9ca7ad94-a2d7-47cb-835e-91d0075b6646.png">
+![화면 캡처 2021-09-10 232134](https://user-images.githubusercontent.com/86331136/132868816-56f2a509-7a63-4c04-be87-307b513d2db2.png)
 
 ### ◾ 개발환경 및 도구
 -언어 : Python, SQL  
