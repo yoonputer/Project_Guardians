@@ -7,13 +7,15 @@
     국가 온실가스 배출량에 대한 정보를 제공함으로써 기업과 국민의 실질적 탄소중립 달성 및 탄소 배출 감소 기여에 목적으로 한다.
 
 ### ◾ 팀 구성원 및 역할
-  - 팀장
-    - [임태혁](https://github.com/creamcheesesteak)
+  - 팀장  
+  [임태혁](https://github.com/creamcheesesteak)
   - 팀원  
- [Front-End] : [노청명], [조운기], [신채원](https://github.com/kaya1436)  
+ [Front-End] : [노청명](), [조운기](), [신채원](https://github.com/kaya1436)  
  [Back-End] : [최솔비](https://github.com/SolbiChoi), [복정훈](https://github.com/yoonputer)
 
 ### ◾ 프로젝트 수행 방향
+<img alt="KakaoTalk_20210910_203502285" src="https://user-images.githubusercontent.com/86331136/132856538-9ca7ad94-a2d7-47cb-835e-91d0075b6646.png">
+
 ### ◾ 개발환경 및 도구
 -언어 : Python, SQL  
 -통합 개발 환경 : Pycharm, Jupyter Notebook  
