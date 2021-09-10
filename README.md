@@ -8,19 +8,22 @@
 
 ### ◾ 팀 구성원 및 역할
   - 팀장
-    - [임태혁](https://github.com/creamcheesesteak/Project_Guardians/blob/master/project/ML/ML_i/README.md) (Back-End)
-  - 팀원
-    - [노청명](https://github.com/creamcheesesteak/Project_Guardians/tree/master/project) (Front-End)
-    - [조운기](https://github.com/creamcheesesteak/Project_Guardians/blob/master/project/Front/Front_j/README.md) (Front-End)
-    - [신채원](https://github.com/creamcheesesteak/Project_Guardians/blob/master/project/Front/Front_s/README.md) (Front-End)
-    - [최솔비](https://github.com/creamcheesesteak/Project_Guardians/blob/master/project/ML/ML_c/README.md) (Back-End)
-    - [복정훈](https://github.com/creamcheesesteak/Project_Guardians/blob/master/project/ML/ML_b/README.md) (Back-End)
-
-
-
-
+    - [임태혁](https://github.com/creamcheesesteak)
+  - 팀원  
+ [Front-End] : [노청명], [조운기], [신채원](https://github.com/kaya1436)  
+ [Back-End] : [최솔비](https://github.com/SolbiChoi), [복정훈](https://github.com/yoonputer)
 
 ### ◾ 프로젝트 수행 방향
+### ◾ 개발환경 및 도구
+-언어 : Python, SQL  
+-통합 개발 환경 : Pycharm, Jupyter Notebook  
+-분석 라이브러리 : Pandas, Numpy, Sikit-Learn, ARIMA  
+-시각화 : Tableau, Matplotlib  
+-웹 서버 : Django  
+-웹 클라이언트 : HTML5, JS, Ajax, CSS  
+-시스템 운영 환경 : Python Anywhere  
+-데이터베이스 : MariaDB  
+-협업 도구 : Github, Zoom, Google Docs  
 
 ### ◾ 일정
 - **프로젝트 수립과 데이터 수집**  
