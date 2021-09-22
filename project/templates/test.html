@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <!-- Load plotly.js into the DOM -->
+	<script src='https://cdn.plot.ly/plotly-2.4.2.min.js'></script>
+</head>
+<body>
+<h1>아아, 테스트페이지입니다</h1>>
+<div id='myDiv' style="width:60%;max-width:550px"><!-- Plotly chart will be drawn inside this DIV --></div>
+    <script>
+        var raw = {
+          x: {{ date | safe}},
+          y: {{ raw | safe}},
+          type: 'scatter',
+          name: 'past',
+          mode: 'line',
+          line: {color: '#89CFEF'}
+        };
+
+        var upper = {
+          x: {{ date | safe}},
+          y: {{ upper | safe}},
+          fill: 'tonexty',
+          fillcolor: 'white',
+          type: 'scatter',
+          name: 'criteria',
+          mode: 'none'
+        };
+
+        var lower = {
+          x: {{ date | safe}},
+          y: {{ lower | safe}},
+          fill: 'tonexty',
+          fillcolor: '#98FB98',
+          color: 'white',
+          type: 'scatter',
+          name: 'predic_field',
+          mode: 'none'
+        };
+
+        var mean = {
+          x: {{ date | safe}},
+          y: {{ mean | safe}},
+          type: 'scatter',
+          name: 'prediction',
+          mode: 'line',
+          line: {color: '##D30000'}
+        };
+        var layout = {
+          title: 'CO2 Emissions',
+          shapes: [
+        {
+            type: 'rect',
+            // x-reference is assigned to the x-values
+            xref: 'x',
+            // y-reference is assigned to the plot paper [0,1]
+            yref: 'paper',
+            x0: '2018-11-01',
+            y0: 0,
+            x1: '2022-10-01',
+            y1: 1,
+            fillcolor: '#999DA0',
+            opacity: 0.2,
+            line: {
+                width: 0
+            }
+        }],
+          xaxis: {
+            autorange: true,
+            range: {{ date | safe}},
+            rangeselector: {buttons: [
+                {
+                  count: 1,
+                  label: '1m',
+                  step: 'month',
+                  stepmode: 'backward'
+                },
+                {
+                  count: 6,
+                  label: '6m',
+                  step: 'month',
+                  stepmode: 'backward'
+                },
+                {step: 'all'}
+              ]},
+            rangeslider: {range: {{ date | safe}}},
+            type: 'date'
+          },
+          yaxis: {
+            autorange: true,
+            type: 'linear'
+          }
+        };
+        // var layout = {
+        //   title: 'CO2 Emissions'
+
+        // };
+        var data = [raw, upper, lower, mean];
+
+        Plotly.newPlot('myDiv', data, layout);
+    </script>
+
+</body>
+</html>

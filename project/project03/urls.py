@@ -28,5 +28,5 @@ path('blog', views.blog, name='blog'),
 path('elements', views.elements, name='elements'),
 path('blog_details', views.blog_details, name='blog_details'),
 
-
+path('test', views.test, name='test'),
 ]
