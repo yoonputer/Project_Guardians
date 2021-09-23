@@ -8,7 +8,31 @@
 	<script src='https://cdn.plot.ly/plotly-2.4.2.min.js'></script>
 </head>
 <body>
-<h1>아아, 테스트페이지입니다</h1>>
+<h1>아아, 테스트페이지입니다</h1>
+
+<!--<form name="search" action="/index" method="GET">-->
+<!--        <div class="w3-input-group w3-hover-opacity-off " style="display:inline-flex; flex-direction: row;">-->
+<!--            <select name="industry" style="padding: 1px 20px! important;">-->
+<!--                <option value="" disabled selected hidden>Choose Industry</option>-->
+<!--                <option value="primary">1차산업(농림어업)</option><option value="mining">광업</option><option value="manufacture">제조업</option>-->
+<!--                <option value="energy">발전에너지</option><option value="recycle">환경복원/하수폐처리</option><option value="building">건설업</option>-->
+<!--                <option value="retail">도소매업</option><option value="transportation">운수업</option>-->
+<!--            </select>-->
+
+<!--            <select name="place" style="padding: 1px 20px! important;">-->
+<!--                <option value="" disabled selected hidden>Choose Place</option>-->
+<!--                <option value="강원도">강원도</option><option value="경기도">경기도</option><option value="경상남도">경상남도</option>-->
+<!--                <option value="경상북도">경상북도</option><option value="광주광역시">광주광역시</option><option value="대구광역시">대구광역시</option>-->
+<!--                <option value="대전광역시">대전광역시</option><option value="부산광역시">부산광역시</option><option value="서울특별시">서울특별시</option>-->
+<!--                <option value="세종특별자치시">세종특별자치시</option><option value="울산광역시">울산광역시</option><option value="인천광역시">인천광역시</option>-->
+<!--                <option value="전라남도">전라남도</option><option value="전라북도">전라북도</option><option value="제주특별자치도">제주특별자치도</option>-->
+<!--                <option value="충청남도">충청남도</option><option value="충청북도">충청북도</option>-->
+<!--            </select>-->
+<!--          <button class="w3-btn w3-black w3-border w3-round" style="width:10vw; height:auto; font-size:1.5vw;" onclick="location='/index'">Search</button>-->
+
+
+
+<!-- time series visualization -->
 <div id='myDiv' style="width:60%;max-width:550px"><!-- Plotly chart will be drawn inside this DIV --></div>
     <script>
         var raw = {
@@ -37,7 +61,7 @@
           fillcolor: '#98FB98',
           color: 'white',
           type: 'scatter',
-          name: 'predic_field',
+          name: 'predict_field',
           mode: 'none'
         };
 
